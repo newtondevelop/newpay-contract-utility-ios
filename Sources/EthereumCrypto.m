@@ -12,7 +12,7 @@
 
 + (nonnull NSData *)getPublicKeyFrom:(nonnull NSData *)privateKey {
     NSMutableData *publicKey = [[NSMutableData alloc] initWithLength:65];
-    ecdsa_get_public_key65(&secp256k1, privateKey.bytes, publicKey.mutableBytes);
+    ecdsa_get_public_key65(&nist256p1, privateKey.bytes, publicKey.mutableBytes);
     return publicKey;
 }
 
@@ -25,13 +25,13 @@
 + (nonnull NSData *)signHash:(nonnull NSData *)hash privateKey:(nonnull NSData *)privateKey {
     NSMutableData *signature = [[NSMutableData alloc] initWithLength:65];
     uint8_t by = 0;
-    ecdsa_sign_digest(&secp256k1, privateKey.bytes, hash.bytes, signature.mutableBytes, &by, nil);
+    ecdsa_sign_digest(&nist256p1, privateKey.bytes, hash.bytes, signature.mutableBytes, &by, nil);
     ((uint8_t *)signature.mutableBytes)[64] = by;
     return signature;
 }
 
 + (BOOL)verifySignature:(nonnull NSData *)signature message:(nonnull NSData *)message publicKey:(nonnull NSData *)publicKey {
-    return ecdsa_verify_digest(&secp256k1, publicKey.bytes, signature.bytes, message.bytes) == 0;
+    return ecdsa_verify_digest(&nist256p1, publicKey.bytes, signature.bytes, message.bytes) == 0;
 }
 
 @end
