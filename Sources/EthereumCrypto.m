@@ -6,7 +6,7 @@
 
 #import "EthereumCrypto.h"
 
-@import TrezorCrypto;
+@import NewTrezorCrypto;
 
 @implementation EthereumCrypto
 
