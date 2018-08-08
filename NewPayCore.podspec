@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.swift_version = '4.0'
 
-  s.source       = { git: 'https://github.com/TrustWallet/trust-core.git', tag: s.version }
+  s.source       = { git: 'git@gitlab.newtonproject.org:xiawu/newton-newpay-ios-core.git', tag: s.version }
   s.source_files = 'Sources/**/*.{swift,h,m}'
   s.public_header_files = 'Sources/NewPayCore.h', 'Sources/EthereumCrypto.h'
 
