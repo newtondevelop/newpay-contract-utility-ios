@@ -3,26 +3,35 @@ PODS:
     - SipHash (~> 1.2)
   - SipHash (1.2.2)
   - SwiftLint (0.26.0)
-  - TrezorCrypto (0.0.5)
+  - TrezorCrypto (0.1.0)
 
 DEPENDENCIES:
   - BigInt (~> 3.0)
   - SwiftLint
-  - TrezorCrypto
+  - "TrezorCrypto (from `git@gitlab.newtonproject.org:xiawu/newton-trezor-crypto-ios.git`, branch `master`)"
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - BigInt
     - SipHash
     - SwiftLint
-    - TrezorCrypto
+
+EXTERNAL SOURCES:
+  TrezorCrypto:
+    :branch: master
+    :git: "git@gitlab.newtonproject.org:xiawu/newton-trezor-crypto-ios.git"
+
+CHECKOUT OPTIONS:
+  TrezorCrypto:
+    :commit: d7e5fb354cc4ba86dcf3ff7583abac8d7996611a
+    :git: "git@gitlab.newtonproject.org:xiawu/newton-trezor-crypto-ios.git"
 
 SPEC CHECKSUMS:
   BigInt: 76b5dfdfa3e2e478d4ffdf161aeede5502e2742f
   SipHash: fad90a4683e420c52ef28063063dbbce248ea6d4
   SwiftLint: f6b83e8d95ee1e91e11932d843af4fdcbf3fc764
-  TrezorCrypto: ecef681446bf02af6248d3b5e394026d7e766e56
+  TrezorCrypto: 3ae4376721b59976c42124cb32762e2357ae3fde
 
-PODFILE CHECKSUM: 624984ae5a2c2687c1082a498574b6d86f08100b
+PODFILE CHECKSUM: 7490630718e2cbc73698251c84cc7b5c3ef57c5f
 
 COCOAPODS: 1.5.3
