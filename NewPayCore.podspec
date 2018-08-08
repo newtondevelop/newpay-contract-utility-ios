@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.public_header_files = 'Sources/NewPayCore.h', 'Sources/EthereumCrypto.h'
 
   s.dependency 'BigInt'
-  s.dependency 'TrezorCrypto'
+  s.dependency 'NewTrezorCrypto'
 
   s.pod_target_xcconfig = { 'SWIFT_OPTIMIZATION_LEVEL' => '-Owholemodule' }
 end
