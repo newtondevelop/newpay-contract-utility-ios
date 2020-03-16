@@ -1,9 +1,8 @@
-# Trust Core
+# NewPay Core
 
-[![Build Status](https://travis-ci.org/TrustWallet/trust-core.svg?branch=master)](https://travis-ci.org/TrustWallet/trust-core)
-[![License](https://img.shields.io/badge/license-GPL3-green.svg?style=flat)](https://github.com/TrustWallet/trust-core/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/license-GPL3-green.svg?style=flat)]()
 
-Core Ethereum data structures and algorithms. This is part of the [Trust Ethereum Wallet for iOS](https://github.com/TrustWallet/trust-wallet-ios), but can be used standalone.
+Core Ethereum data structures and algorithms. This is part of the [NewPay Wallet for iOS](), but can be used standalone.
 
 ## Contributing
 
@@ -29,4 +28,4 @@ behavior violating this base foundation of respect.
 
 ## License
 
-Trust Core is available under the MIT license. See the [LICENSE](https://github.com/TrustWallet/trust-core/blob/master/LICENSE) file for more info.
+NewPay Core is available under the GPLv3 license. See the [LICENSE]() file for more info.
