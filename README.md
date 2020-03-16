@@ -4,6 +4,14 @@
 
 Core Ethereum data structures and algorithms. This is part of the [NewPay Wallet for iOS](), but can be used standalone.
 
+## Usage
+
+To install it simply add the following line to your Podfile:
+
+```
+pod 'NewPayCore', :git=>'', :branch=>'master'
+```
+
 ## Contributing
 
 We intend for this project to be an educational resource: we are excited to
