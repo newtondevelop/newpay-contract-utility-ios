@@ -3,8 +3,8 @@ Pod::Spec.new do |s|
   s.version      = '0.0.1'
   s.summary      = 'Core Ethereum data structures and algorithms.'
   s.homepage     = 'https://github.com/TrustWallet/trust-core'
-  s.license      = 'MIT'
-  s.authors      = { 'Alejandro Isaza' => 'al@isaza.ca' }
+  s.license      = { type: 'GPLv3', file: 'LICENSE' }
+  s.authors      = { 'newtonproject' => 'newton-app@newtonproject.org' }
 
   s.ios.deployment_target = '9.0'
   s.swift_version = '4.0'
