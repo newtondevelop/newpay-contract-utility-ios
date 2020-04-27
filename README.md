@@ -36,4 +36,4 @@ behavior violating this base foundation of respect.
 
 ## License
 
-NewPay Core is available under the GPLv3 license. See the [LICENSE]() file for more info.
+NewPay Core is available under the GPLv3 license. See the [LICENSE](LICENSE) file for more info.
