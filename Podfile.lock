@@ -11,7 +11,7 @@ DEPENDENCIES:
   - SwiftLint
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - BigInt
     - SipHash
     - SwiftLint
@@ -23,15 +23,15 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   NewTrezorCrypto:
-    :commit: 309720df63b90882183c53e08d1eca6ba6e2d3ae
+    :commit: d0ce4fe0e1042be1cdb32a86c8f3dbe2d003b122
     :git: "git@gitlab.newtonproject.org:xiawu/newton-trezor-crypto-ios.git"
 
 SPEC CHECKSUMS:
   BigInt: 76b5dfdfa3e2e478d4ffdf161aeede5502e2742f
-  NewTrezorCrypto: dfbe514607f948a20e9b168b0c5b902c9e9f598b
+  NewTrezorCrypto: 8fe6b25f41886bb2928e777f3ae9167b3ff5cd9e
   SipHash: fad90a4683e420c52ef28063063dbbce248ea6d4
   SwiftLint: f6b83e8d95ee1e91e11932d843af4fdcbf3fc764
 
-PODFILE CHECKSUM: ba12cadb2e20c401bca441b07dec90e8174abaf6
+PODFILE CHECKSUM: c3bf7a4c8eea5576c357c7ea71bcc7c96c29d4da
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.4

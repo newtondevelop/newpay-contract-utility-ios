@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		230D33C720DBAD6F00663044 /* Pods_NewPayCore_NewPayCoreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 230D33C620DBAD6F00663044 /* Pods_NewPayCore_NewPayCoreTests.framework */; };
-		6149A6AA201E433A00A2F35C /* NewPayCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6149A6A0201E433A00A2F35C /* NewPayCore.framework */; };
-		6149A6C5201E448B00A2F35C /* NewPayCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 6149A6BC201E43E200A2F35C /* NewPayCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6149A6AA201E433A00A2F35C /* NewpayContractUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6149A6A0201E433A00A2F35C /* NewpayContractUtility.framework */; };
+		6149A6C5201E448B00A2F35C /* NewpayContractUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 6149A6BC201E43E200A2F35C /* NewpayContractUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6149A6C8201E455D00A2F35C /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149A6C7201E455D00A2F35C /* Address.swift */; };
 		6149A6CA201E472000A2F35C /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149A6C9201E472000A2F35C /* Transaction.swift */; };
 		6149A6CC201E496A00A2F35C /* DataHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149A6CB201E496900A2F35C /* DataHex.swift */; };
@@ -33,6 +32,7 @@
 		616B06412098CAE800FE7942 /* ABIDecoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616B06402098CAE800FE7942 /* ABIDecoderTests.swift */; };
 		61D0BA292075D771004F71E1 /* ABIEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D0BA282075D771004F71E1 /* ABIEncoder.swift */; };
 		61D0BA2D2075EF53004F71E1 /* ABIEncoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D0BA2C2075EF53004F71E1 /* ABIEncoderTests.swift */; };
+		B4AA4B36149236B28D4868D2 /* Pods_NewpayContractUtility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5108B609239721A66ED0B1E3 /* Pods_NewpayContractUtility.framework */; };
 		BB3864A72090088D00CBF773 /* ENSEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3864A62090088D00CBF773 /* ENSEncoder.swift */; };
 		BB3864A92090145600CBF773 /* ENSEncoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3864A82090145600CBF773 /* ENSEncoderTests.swift */; };
 		BB3864AD20904C3900CBF773 /* NamehashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3864AC20904C3900CBF773 /* NamehashTests.swift */; };
@@ -40,7 +40,7 @@
 		BB3864C3209569CE00CBF773 /* ReverseResolverEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3864C2209569CE00CBF773 /* ReverseResolverEncoder.swift */; };
 		BB3864C720956F8B00CBF773 /* ReverseResolverEncoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3864C620956F8B00CBF773 /* ReverseResolverEncoderTests.swift */; };
 		BB3864C92095C80D00CBF773 /* Namehash.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3864C82095C80D00CBF773 /* Namehash.swift */; };
-		FC7EAAE75D43FFA640148258 /* Pods_NewPayCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6490837533E2B2DCD87FE2 /* Pods_NewPayCore.framework */; };
+		F9037340B89F2D47BA638AC0 /* Pods_NewpayContractUtility_NewpayContractUtilityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D5FE5577F922092E70048C /* Pods_NewpayContractUtility_NewpayContractUtilityTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,11 +54,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		230D33C620DBAD6F00663044 /* Pods_NewPayCore_NewPayCoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_NewPayCore_NewPayCoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		046FE900735D1D0C8DC8EC00 /* Pods-NewpayContractUtility-NewpayContractUtilityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewpayContractUtility-NewpayContractUtilityTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewpayContractUtility-NewpayContractUtilityTests/Pods-NewpayContractUtility-NewpayContractUtilityTests.release.xcconfig"; sourceTree = "<group>"; };
+		5108B609239721A66ED0B1E3 /* Pods_NewpayContractUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewpayContractUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54D796519C10237F4AE759DA /* Pods-NewPayCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewPayCore.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewPayCore/Pods-NewPayCore.release.xcconfig"; sourceTree = "<group>"; };
-		6149A6A0201E433A00A2F35C /* NewPayCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NewPayCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6149A6A9201E433A00A2F35C /* NewPayCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewPayCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6149A6BC201E43E200A2F35C /* NewPayCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewPayCore.h; sourceTree = "<group>"; };
+		6149A6A0201E433A00A2F35C /* NewpayContractUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NewpayContractUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6149A6A9201E433A00A2F35C /* NewpayContractUtilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewpayContractUtilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6149A6BC201E43E200A2F35C /* NewpayContractUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewpayContractUtility.h; sourceTree = "<group>"; };
 		6149A6BD201E43E200A2F35C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6149A6BF201E43E200A2F35C /* TestsInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TestsInfo.plist; sourceTree = "<group>"; };
 		6149A6C0201E43E200A2F35C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,7 +89,10 @@
 		61D0BA2C2075EF53004F71E1 /* ABIEncoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABIEncoderTests.swift; sourceTree = "<group>"; };
 		682B6374F9856982618A8501 /* Pods_TrustCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrustCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CD6122118EC42CF6EB69B38 /* Pods-NewPayCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewPayCore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewPayCore/Pods-NewPayCore.debug.xcconfig"; sourceTree = "<group>"; };
+		9E11A744A7C106E8305CE8C3 /* Pods-NewpayContractUtility.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewpayContractUtility.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewpayContractUtility/Pods-NewpayContractUtility.debug.xcconfig"; sourceTree = "<group>"; };
 		A1C9DA59AE410E04E68E1F89 /* Pods_TrustCore_TrustCoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrustCore_TrustCoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7C2CC9D611B7BB433E4F7BD /* Pods-NewpayContractUtility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewpayContractUtility.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewpayContractUtility/Pods-NewpayContractUtility.release.xcconfig"; sourceTree = "<group>"; };
+		BA7BA22370B1867A65245CFB /* Pods-NewpayContractUtility-NewpayContractUtilityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewpayContractUtility-NewpayContractUtilityTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewpayContractUtility-NewpayContractUtilityTests/Pods-NewpayContractUtility-NewpayContractUtilityTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BB3864A62090088D00CBF773 /* ENSEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENSEncoder.swift; sourceTree = "<group>"; };
 		BB3864A82090145600CBF773 /* ENSEncoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENSEncoderTests.swift; sourceTree = "<group>"; };
 		BB3864AC20904C3900CBF773 /* NamehashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamehashTests.swift; sourceTree = "<group>"; };
@@ -96,8 +100,9 @@
 		BB3864C2209569CE00CBF773 /* ReverseResolverEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseResolverEncoder.swift; sourceTree = "<group>"; };
 		BB3864C620956F8B00CBF773 /* ReverseResolverEncoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseResolverEncoderTests.swift; sourceTree = "<group>"; };
 		BB3864C82095C80D00CBF773 /* Namehash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Namehash.swift; sourceTree = "<group>"; };
+		C3905E7124569010009302F6 /* NewTrezorCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NewTrezorCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAB6C0627EBC8E4A599018C4 /* Pods-NewPayCore-NewPayCoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewPayCore-NewPayCoreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewPayCore-NewPayCoreTests/Pods-NewPayCore-NewPayCoreTests.release.xcconfig"; sourceTree = "<group>"; };
-		CD6490837533E2B2DCD87FE2 /* Pods_NewPayCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewPayCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6D5FE5577F922092E70048C /* Pods_NewpayContractUtility_NewpayContractUtilityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewpayContractUtility_NewpayContractUtilityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7F32E7EC40CD7DF21C9B541 /* Pods-NewPayCore-NewPayCoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewPayCore-NewPayCoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewPayCore-NewPayCoreTests/Pods-NewPayCore-NewPayCoreTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,7 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC7EAAE75D43FFA640148258 /* Pods_NewPayCore.framework in Frameworks */,
+				B4AA4B36149236B28D4868D2 /* Pods_NewpayContractUtility.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,8 +119,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				230D33C720DBAD6F00663044 /* Pods_NewPayCore_NewPayCoreTests.framework in Frameworks */,
-				6149A6AA201E433A00A2F35C /* NewPayCore.framework in Frameworks */,
+				6149A6AA201E433A00A2F35C /* NewpayContractUtility.framework in Frameworks */,
+				F9037340B89F2D47BA638AC0 /* Pods_NewpayContractUtility_NewpayContractUtilityTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +144,8 @@
 		6149A6A1201E433A00A2F35C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6149A6A0201E433A00A2F35C /* NewPayCore.framework */,
-				6149A6A9201E433A00A2F35C /* NewPayCoreTests.xctest */,
+				6149A6A0201E433A00A2F35C /* NewpayContractUtility.framework */,
+				6149A6A9201E433A00A2F35C /* NewpayContractUtilityTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,7 +153,7 @@
 		6149A6BB201E43E200A2F35C /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				6149A6BC201E43E200A2F35C /* NewPayCore.h */,
+				6149A6BC201E43E200A2F35C /* NewpayContractUtility.h */,
 				61645D172058BD6800411565 /* EthereumCrypto.h */,
 				61645D152058BCD500411565 /* EthereumCrypto.m */,
 				6149A6C7201E455D00A2F35C /* Address.swift */,
@@ -213,10 +218,11 @@
 		8088D8221423003565C764F4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				230D33C620DBAD6F00663044 /* Pods_NewPayCore_NewPayCoreTests.framework */,
+				C3905E7124569010009302F6 /* NewTrezorCrypto.framework */,
 				682B6374F9856982618A8501 /* Pods_TrustCore.framework */,
 				A1C9DA59AE410E04E68E1F89 /* Pods_TrustCore_TrustCoreTests.framework */,
-				CD6490837533E2B2DCD87FE2 /* Pods_NewPayCore.framework */,
+				5108B609239721A66ED0B1E3 /* Pods_NewpayContractUtility.framework */,
+				D6D5FE5577F922092E70048C /* Pods_NewpayContractUtility_NewpayContractUtilityTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -228,6 +234,10 @@
 				54D796519C10237F4AE759DA /* Pods-NewPayCore.release.xcconfig */,
 				E7F32E7EC40CD7DF21C9B541 /* Pods-NewPayCore-NewPayCoreTests.debug.xcconfig */,
 				CAB6C0627EBC8E4A599018C4 /* Pods-NewPayCore-NewPayCoreTests.release.xcconfig */,
+				9E11A744A7C106E8305CE8C3 /* Pods-NewpayContractUtility.debug.xcconfig */,
+				A7C2CC9D611B7BB433E4F7BD /* Pods-NewpayContractUtility.release.xcconfig */,
+				BA7BA22370B1867A65245CFB /* Pods-NewpayContractUtility-NewpayContractUtilityTests.debug.xcconfig */,
+				046FE900735D1D0C8DC8EC00 /* Pods-NewpayContractUtility-NewpayContractUtilityTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -261,16 +271,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				61645D182058BF2E00411565 /* EthereumCrypto.h in Headers */,
-				6149A6C5201E448B00A2F35C /* NewPayCore.h in Headers */,
+				6149A6C5201E448B00A2F35C /* NewpayContractUtility.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6149A69F201E433A00A2F35C /* NewPayCore */ = {
+		6149A69F201E433A00A2F35C /* NewpayContractUtility */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6149A6B4201E433B00A2F35C /* Build configuration list for PBXNativeTarget "NewPayCore" */;
+			buildConfigurationList = 6149A6B4201E433B00A2F35C /* Build configuration list for PBXNativeTarget "NewpayContractUtility" */;
 			buildPhases = (
 				6AA00B2DFB76AC1F0FCC2DFC /* [CP] Check Pods Manifest.lock */,
 				6149A69B201E433A00A2F35C /* Sources */,
@@ -283,14 +293,14 @@
 			);
 			dependencies = (
 			);
-			name = NewPayCore;
+			name = NewpayContractUtility;
 			productName = TrustCore;
-			productReference = 6149A6A0201E433A00A2F35C /* NewPayCore.framework */;
+			productReference = 6149A6A0201E433A00A2F35C /* NewpayContractUtility.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6149A6A8201E433A00A2F35C /* NewPayCoreTests */ = {
+		6149A6A8201E433A00A2F35C /* NewpayContractUtilityTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6149A6B7201E433B00A2F35C /* Build configuration list for PBXNativeTarget "NewPayCoreTests" */;
+			buildConfigurationList = 6149A6B7201E433B00A2F35C /* Build configuration list for PBXNativeTarget "NewpayContractUtilityTests" */;
 			buildPhases = (
 				9814F0219C3936327D6DF815 /* [CP] Check Pods Manifest.lock */,
 				6149A6A5201E433A00A2F35C /* Sources */,
@@ -303,9 +313,9 @@
 			dependencies = (
 				6149A6AC201E433A00A2F35C /* PBXTargetDependency */,
 			);
-			name = NewPayCoreTests;
+			name = NewpayContractUtilityTests;
 			productName = TrustCoreTests;
-			productReference = 6149A6A9201E433A00A2F35C /* NewPayCoreTests.xctest */;
+			productReference = 6149A6A9201E433A00A2F35C /* NewpayContractUtilityTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -329,7 +339,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6149A69A201E433A00A2F35C /* Build configuration list for PBXProject "NewPayCore" */;
+			buildConfigurationList = 6149A69A201E433A00A2F35C /* Build configuration list for PBXProject "NewpayContractUtility" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -341,8 +351,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6149A69F201E433A00A2F35C /* NewPayCore */,
-				6149A6A8201E433A00A2F35C /* NewPayCoreTests */,
+				6149A69F201E433A00A2F35C /* NewpayContractUtility */,
+				6149A6A8201E433A00A2F35C /* NewpayContractUtilityTests */,
 			);
 		};
 /* End PBXProject section */
@@ -392,7 +402,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NewPayCore-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-NewpayContractUtility-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -410,7 +420,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NewPayCore-NewPayCoreTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-NewpayContractUtility-NewpayContractUtilityTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -423,7 +433,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-NewPayCore-NewPayCoreTests/Pods-NewPayCore-NewPayCoreTests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-NewpayContractUtility-NewpayContractUtilityTests/Pods-NewpayContractUtility-NewpayContractUtilityTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework",
 				"${BUILT_PRODUCTS_DIR}/NewTrezorCrypto/NewTrezorCrypto.framework",
 				"${BUILT_PRODUCTS_DIR}/SipHash/SipHash.framework",
@@ -436,7 +446,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewPayCore-NewPayCoreTests/Pods-NewPayCore-NewPayCoreTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewpayContractUtility-NewpayContractUtilityTests/Pods-NewpayContractUtility-NewpayContractUtilityTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -489,7 +499,7 @@
 /* Begin PBXTargetDependency section */
 		6149A6AC201E433A00A2F35C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6149A69F201E433A00A2F35C /* NewPayCore */;
+			target = 6149A69F201E433A00A2F35C /* NewpayContractUtility */;
 			targetProxy = 6149A6AB201E433A00A2F35C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -618,7 +628,7 @@
 		};
 		6149A6B5201E433B00A2F35C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CD6122118EC42CF6EB69B38 /* Pods-NewPayCore.debug.xcconfig */;
+			baseConfigurationReference = 9E11A744A7C106E8305CE8C3 /* Pods-NewpayContractUtility.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -630,7 +640,7 @@
 				INFOPLIST_FILE = Metadata/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.trustwalletapp.NewPayCore;
+				PRODUCT_BUNDLE_IDENTIFIER = org.newtonproject.NewpayContractUtility;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -640,7 +650,7 @@
 		};
 		6149A6B6201E433B00A2F35C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54D796519C10237F4AE759DA /* Pods-NewPayCore.release.xcconfig */;
+			baseConfigurationReference = A7C2CC9D611B7BB433E4F7BD /* Pods-NewpayContractUtility.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -652,7 +662,7 @@
 				INFOPLIST_FILE = Metadata/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.trustwalletapp.NewPayCore;
+				PRODUCT_BUNDLE_IDENTIFIER = org.newtonproject.NewpayContractUtility;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -661,12 +671,12 @@
 		};
 		6149A6B8201E433B00A2F35C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7F32E7EC40CD7DF21C9B541 /* Pods-NewPayCore-NewPayCoreTests.debug.xcconfig */;
+			baseConfigurationReference = BA7BA22370B1867A65245CFB /* Pods-NewpayContractUtility-NewpayContractUtilityTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Metadata/TestsInfo.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.trustwalletapp.NewPayCoreTests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.newtonproject.NewpayContractUtilityTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -674,12 +684,12 @@
 		};
 		6149A6B9201E433B00A2F35C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAB6C0627EBC8E4A599018C4 /* Pods-NewPayCore-NewPayCoreTests.release.xcconfig */;
+			baseConfigurationReference = 046FE900735D1D0C8DC8EC00 /* Pods-NewpayContractUtility-NewpayContractUtilityTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Metadata/TestsInfo.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.trustwalletapp.NewPayCoreTests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.newtonproject.NewpayContractUtilityTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -688,7 +698,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6149A69A201E433A00A2F35C /* Build configuration list for PBXProject "NewPayCore" */ = {
+		6149A69A201E433A00A2F35C /* Build configuration list for PBXProject "NewpayContractUtility" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6149A6B2201E433B00A2F35C /* Debug */,
@@ -697,7 +707,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6149A6B4201E433B00A2F35C /* Build configuration list for PBXNativeTarget "NewPayCore" */ = {
+		6149A6B4201E433B00A2F35C /* Build configuration list for PBXNativeTarget "NewpayContractUtility" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6149A6B5201E433B00A2F35C /* Debug */,
@@ -706,7 +716,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6149A6B7201E433B00A2F35C /* Build configuration list for PBXNativeTarget "NewPayCoreTests" */ = {
+		6149A6B7201E433B00A2F35C /* Build configuration list for PBXNativeTarget "NewpayContractUtilityTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6149A6B8201E433B00A2F35C /* Debug */,

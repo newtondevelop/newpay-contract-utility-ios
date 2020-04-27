@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
-  s.name         = 'NewPayCore'
+  s.name         = 'NewpayContractUtility'
   s.version      = '0.0.1'
   s.summary      = 'Core Ethereum data structures and algorithms.'
-  s.homepage     = 'https://github.com/TrustWallet/trust-core'
+  s.homepage     = ''
   s.license      = { type: 'GPLv3', file: 'LICENSE' }
   s.authors      = { 'newtonproject' => 'newton-app@newtonproject.org' }
 
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
   s.source       = { git: 'git@gitlab.newtonproject.org:xiawu/newton-newpay-ios-core.git', tag: s.version }
   s.source_files = 'Sources/**/*.{swift,h,m}'
-  s.public_header_files = 'Sources/NewPayCore.h', 'Sources/EthereumCrypto.h'
+  s.public_header_files = 'Sources/NewpayContractUtility.h', 'Sources/EthereumCrypto.h'
 
   s.dependency 'BigInt'
   s.dependency 'NewTrezorCrypto'
