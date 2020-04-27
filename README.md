@@ -1,4 +1,4 @@
-# NewPay Core
+# Newpay Contract Utility
 
 [![License](https://img.shields.io/badge/license-GPL3-green.svg?style=flat)]()
 
@@ -9,7 +9,7 @@ Core Ethereum data structures and algorithms. This is part of the [NewPay Wallet
 To install it simply add the following line to your Podfile:
 
 ```
-pod 'NewPayCore', :git=>'', :branch=>'master'
+pod 'NewpayContractUtility', :git=>'', :branch=>'master'
 ```
 
 ## Contributing
