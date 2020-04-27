@@ -5,7 +5,7 @@
 // file LICENSE at the root of the source code distribution tree.
 
 import Foundation
-import NewTrezorCrypto
+import NewpayCrypto
 
 /// Ethereum address.
 public struct Address: Hashable, CustomStringConvertible {
