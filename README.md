@@ -1,4 +1,4 @@
-# Newpay Contract Utility
+# NewPay Contract Utility
 
 [![License](https://img.shields.io/badge/license-GPL3-green.svg?style=flat)]()
 
@@ -35,4 +35,4 @@ behavior violating this base foundation of respect.
 
 ## License
 
-Newpay Contract Utility is available under the GPLv3 license. See the [LICENSE](LICENSE) file for more info.
+NewPay Contract Utility is available under the GPLv3 license. See the [LICENSE](LICENSE) file for more info.
