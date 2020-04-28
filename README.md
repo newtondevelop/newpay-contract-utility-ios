@@ -2,14 +2,14 @@
 
 [![License](https://img.shields.io/badge/license-GPL3-green.svg?style=flat)]()
 
-Core Ethereum data structures and algorithms. This is part of the [NewPay Wallet for iOS](), but can be used standalone.
+Core Newton wallet data structures and algorithms. This is part of the [NewPay Wallet for iOS](https://github.com/newtondevelop/newpay-ios-example), but can be used standalone. It also provide supports for communicating with smart contracts.
 
 ## Usage
 
 To install it simply add the following line to your Podfile:
 
 ```
-pod 'NewpayContractUtility', :git=>'', :branch=>'master'
+pod 'NewpayContractUtility', :git=>'https://github.com/newtondevelop/newpay-contract-utility-ios.git', :branch=>'master'
 ```
 
 ## Contributing
@@ -36,4 +36,4 @@ behavior violating this base foundation of respect.
 
 ## License
 
-NewPay Core is available under the GPLv3 license. See the [LICENSE](LICENSE) file for more info.
+Newpay Contract Utility is available under the GPLv3 license. See the [LICENSE](LICENSE) file for more info.
