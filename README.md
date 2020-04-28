@@ -32,7 +32,6 @@ kind and considerate human beings who learn and grow from giving and receiving
 positive, constructive feedback. We reserve the right to delete or ban any
 behavior violating this base foundation of respect.
 
----
 
 ## License
 
